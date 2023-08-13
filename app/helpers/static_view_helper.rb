@@ -1,0 +1,2 @@
+module StaticViewHelper
+end
