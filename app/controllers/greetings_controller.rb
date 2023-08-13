@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
-    def index
+    def random
         random_message = Message.order("RANDOM()").first
         @message = random_message.content
     end
