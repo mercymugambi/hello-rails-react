@@ -1,4 +1,4 @@
 class StaticViewsController < ApplicationController
-    def home
+    def index
     end
 end
